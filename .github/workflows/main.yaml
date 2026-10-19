@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get Your Code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Say Hello to the World
         run: echo "Hello, World!"
